@@ -1,0 +1,96 @@
+.img30
+   max-width: 30px !important
+.img40
+  max-width: 40px !important
+.img50
+  max-width: 50px !important
+.img70
+   max-width: 70px !important
+.img90
+  max-width: 90px !important
+.img120
+  max-width: 120px !important
+.img160
+  max-width: 160px !important
+.img200
+  max-width: 200px !important
+.img250
+  max-width: 250px !important
+.img350
+  max-width: 350px !important
+.img450
+  max-width: 450px !important
+.img600
+  max-width: 600px !important
+.img700
+  max-width: 700px !important
+.img900
+  max-width: 900px !important
+
+
+.justify-center
+  display: flex
+  justify-content: center
+  flex-direction: row
+.justify-end
+  display: flex
+  justify-content: flex-end
+  flex-direction: row
+.align-items-center
+  display: flex
+  justify-content: flex-start
+  flex-direction: row
+.align-items-end
+  display: flex
+  justify-content: flex-end
+  flex-direction: row
+
+.banner-interno__fondo
+  background-image: url("../assets/curso/portada/interno.svg") !important
+  background-repeat: no-repeat
+  background-color: #F8F5F4 !important
+
+.bg_grad-01
+  position: relative
+  figure, p, .cajon, .video
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    top: 0
+    left: 0
+    width: calc( 100% + 6rem)
+    height: 100%
+    background-image: url("../assets/curso/fondo-intro.png")
+    background-repeat: no-repeat
+    background-size: contain
+
+.banner-principal__img
+  align-self: stretch
+  background-position: -20% 80%, 50% 50%
+  background-repeat: no-repeat, no-repeat
+  animation-name: cambiar
+  animation-duration: 5s
+  animation-iteration-count: infinite
+  animation-play-state: running
+  animation-timing-function: steps(1, end)
+  img
+    display: none !important
+  @media screen and (max-width: 1399px)    
+    background-size: 60%
+    background-position: -32% 78%, 50% 50%
+.banner-principal__img:hover
+  animation-play-state: paused
+
+@keyframes cambiar
+  0%
+    background-image: url("../assets/curso/portada/estre1.svg")
+  25%
+    background-image: url("../assets/curso/portada/estre2.svg")
+  50%
+    background-image: url("../assets/curso/portada/estre3.svg")
+  75%
+    background-image: url("../assets/curso/portada/estre4.svg")
+  100%
+    background-image: url("../assets/curso/portada/estre1.svg")
