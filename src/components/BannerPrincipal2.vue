@@ -22,7 +22,7 @@
     .imagen_flotante_3: img(src="@/assets/curso/portada/cara3.svg").d-none.d-lg-block
     .imagen_flotante_4: img(src="@/assets/curso/portada/cara4.svg").d-none.d-lg-block
     .imagen_flotante_5: img(src="@/assets/curso/portada/cara5.svg").d-none.d-lg-block
-    .imagen_flotante_6: img(src="@/assets/curso/portada/estre5.svg").d-none.d-lg-block
+    .imagen_flotante_6.banner-principal__img: img(src="@/assets/curso/portada/estre5.svg").d-none.d-lg-block
     
   
 
@@ -44,7 +44,7 @@ export default {
 <style lang="sass">
 .img-p
   top: 3%
-  right: -6%
+  right: -3%
 .fondo-contenido
   position: absolute
   padding: 0px
@@ -61,7 +61,7 @@ export default {
     color: $color-banner-text
 
   .tarjeta
-    background-color: #F8F5F4
+    background-color: #FFC664
     background-size: cover
     //background-position: center
 
@@ -97,7 +97,7 @@ export default {
         .banner-principal__img
           padding-right: 3rem!important
 
-  &__img
+  //&__img
     animation: scale 5s ease-in-out infinite alternate
     @if $banner-principal-img-y == 'arriba'
       align-self: flex-start
@@ -123,39 +123,39 @@ export default {
     position: absolute
     width: 58px
     top: 10%
-    right: 21%
+    right: 29%
   &_2
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
     width: 99px
     top: 24%
-    right: -4%
+    right: 3%
   &_3
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
     width: 90px
     bottom: 2%
-    right: -7%
+    right: 1%
   &_4
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
     width: 52px
-    bottom: 3%
-    left: 69%
+    bottom: 4%
+    left: 63%
     z-index: 99
   &_5
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
     width: 92px
-    top: 32%
-    left: 65%
+    top: 44%
+    left: 59%
     z-index: 99
   &_6
-    animation: float1 3.5s ease-in-out infinite alternate
+    //animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    width: 167px
+    width: 239px
     top: 55%
-    right: -2%
+    right: 2%
     z-index: 99
   &_7
     animation: float1 2.5s ease-in-out infinite alternate

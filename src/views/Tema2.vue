@@ -2,145 +2,215 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
+    .titulo-principal.color-acento-contenido
+      .titulo-principal__numero
+        span 2
+      h1 Sistemas de información
     
-    .titulo-principal
-      .h3 Producción Audiovisual
+    p Es un concepto que pareciera alusivo a personas con formación en informática, entonces ¿por qué una persona enfocada en servicio al cliente debería conocer sobre este concepto?, la respuesta es sencilla, porque hoy el mundo está conectado digitalmente y como parte de ello toda organización que posea un nivel de funcionamiento con orientación a los procesos cuenta en su compañía con diferentes aplicaciones o programas que ayudan a #[strong sistematizar] la información, la cual es en primera instancia la relevancia de este tipo de sistemas.
+    p A continuación, se enunciarán algunas definiciones complementarias que permitirán orientar mejor el concepto de sistemas de información, también denominados coloquialmente como S.I.:
+
+    .row.mb-5
+      .col-12.col-md-4(data-aos="fade-up")
+        .titulo-sexto.color-primario
+          span Son un conjunto de aplicaciones que permiten administrar información de interés para las empresas.
+      .col-12.col-md-4(data-aos="fade-down")
+        .titulo-sexto.color-secundario
+          span Es el uso aplicado de la tecnología en pro de la agilidad de los procesos y personas que realizan operaciones o transacciones en una organización.
+      .col-12.col-md-4(data-aos="fade-up")
+        .titulo-sexto.color-acento-contenido
+          span Es un sistema de tipo informático que posibilita la obtención, gestión y administración de la información de una forma ordenada y lógica, y con un fin determinado.
     
-    #t_2_1.titulo-segundo
-      .h4 2.1 Infografía Animada
+    h2(data-aos="zoom-in-left") Importancia de los sistemas de Información
+
+    p Los sistemas de Información probablemente nunca han cobrado tanta vigencia como actualmente, aquellos tiempos en donde las cuentas e informes se hacían en hojas en papel bond o en calculadoras quedaron atrás, los S.I. llegaron para quedarse, por lo que cada vez son más completos y útiles para las empresas y sus colaboradores. A continuación, se listan algunos aspectos que muestran de una forma explícita por qué los sistemas de información son tan relevantes para las compañías, esto es:
+
+    .bg_grad-03
+      .row.justify-center
+        .col-12.col-md-6.posit
+          PasosA.color-acento-contenido.mb-5(tipo="n")
+            .row.align-items-center
+              .col-md-4.mb-4.mb-md-0(data-aos="slide-right")
+                figure.justify-center
+                  img.img90(src='@/assets/curso/tema1/t1-21.svg', alt='Texto que describa la imagen')
+              .col-md-8(data-aos="slide-left")
+                p Permiten #[strong procesar] la información y generar nuevos datos de interés para la compañía.
+            .row.align-items-center
+              .col-md-4.mb-4.mb-md-0(data-aos="slide-right")
+                figure.justify-center
+                  img.img90(src='@/assets/curso/tema1/t1-22.svg', alt='Texto que describa la imagen')
+              .col-md-8(data-aos="slide-left")
+                p Permite tener #[strong control] sobre la información a nivel organizacional y de usuarios.
+            .row.align-items-center
+              .col-md-4.mb-4.mb-md-0(data-aos="slide-right")
+                figure.justify-center
+                  img.img90(src='@/assets/curso/tema1/t1-23.svg', alt='Texto que describa la imagen')
+              .col-md-8(data-aos="slide-left")
+                p Posibilita la #[strong distribución] de la información asociado al uso de permisos y ambientes de colaboración.
+            .row.align-items-center
+              .col-md-4.mb-4.mb-md-0(data-aos="slide-right")
+                figure.justify-center
+                  img.img90(src='@/assets/curso/tema1/t1-24.svg', alt='Texto que describa la imagen')
+              .col-md-8(data-aos="slide-left")
+                p Permiten #[strong obtener datos] de diversas fuentes de información de la empresa tanto internas como externas.
+            .row.align-items-center
+              .col-md-4.mb-4.mb-md-0(data-aos="slide-right")
+                figure.justify-center
+                  img.img90(src='@/assets/curso/tema1/t1-25.svg', alt='Texto que describa la imagen')
+              .col-md-8(data-aos="slide-left")
+                p #[strong Almacenan] la información de una forma centralizada y segura.
+            .row.align-items-center
+              .col-md-4.mb-4.mb-md-0(data-aos="slide-right")
+                figure.justify-center
+                  img.img90(src='@/assets/curso/tema1/t1-26.svg', alt='Texto que describa la imagen')
+              .col-md-8(data-aos="slide-left")
+                p Permite #[strong administrar la información] desde la lógica de procesos, por lo que la consolidación de la información es un beneficio sustancial.
+        .row.justify-center
+          .col-12.col-md-10
+            p En resumen y atendiendo lo visto anteriormente sobre los S.I, estos son herramientas que permiten obtener, almacenar, administrar, procesar, controlar, distribuir y custodiar la información de la empresa de una forma tecnológica y confiable y aunque, si bien en el momento inicial pueden suponer una inversión considerable cuando se compran o se desarrollan <em>in house</em> (es decir, se realizan al interior de la empresa), la optimización a la que llevan, la minimización de los errores y la calidad de la información que se va a tener sin duda genera una relación costo - beneficio positiva.
     
-    p.mb-4 Propuesta infográfica en animación que refuerce un tema y matice conceptos dados de manera creativa y con intención pedagógica.
+    h2(data-aos="zoom-in-left").mt-5 Tipos de sistemas de información
 
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2cnKTwQ85fg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    p.mb-5 Probablemente existan tantos tipos y clasificaciones de los sistemas de información como autores han hecho mención del tema; sin embargo, planteando la tipología en la forma cómo funcionan las empresas, se plantean los tipos de S.I. enfocados en el proceso o la variable al que responden; en este sentido, se visionan los siguientes S.I. como aquellos más usados en las empresas: 
 
-    #t_2_2.titulo-segundo
-      .h4 2.2 Video Motion
+    BotonesC.mb-5.mt-5(data-aos="zoom-in-up")
 
-    p.mb-4 Animación digital que crea la ilusión de movimiento mediante imágenes, fotografías, títulos, colores y diseños.
+    p.mb-5 Vale la pena mencionar que a nivel general, entre mayor sea el tamaño de la empresa mayor será la probabilidad que incorpore varios o todos estos tipos de sistemas de información, de manera análoga entre más pequeña sea la compañía menor será el nivel de usabilidad de estas herramientas.
 
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/E7-BaX6ox9s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    h2(data-aos="zoom-in-left") Sistemas de información transversales
 
-    #t_2_3.titulo-segundo
-      .h4 2.3 Motion + Presentador
+    p.mb-5 De otra parte, existen diversos sistemas de información que cuentan con la capacidad para considerarse S.I. transversales en una organización. Se invita a que revise cuáles son y cuáles son sus características:
 
-    p.mb-4 Es el uso locutor + acompañamiento de imágenes como fondo, el estilo tiene una mezcla entre imagen viva y recursos gráficos vectoriales  se usa cuando un material tiene información de datos numéricos o gráficos de valores. 
+    .bg_grad-04
+      BotonesD.mb-5(data-aos="zoom-in-up")
 
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/Ky73iaXuuTA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    h2(data-aos="zoom-in-left") Sistema de información enfocado en clientes
 
-    #t_2_4.titulo-segundo
-      .h4 2.4 Animación 2D
+    p Los S.I. con enfoque al cliente se denominan Customer Relationship Management y son identificados en el ámbito empresarial como CRM. Este sistema permite tener consolidada, organizada y disponible la información de los clientes, de tal forma que el agente de servicio pueda revisar la información del cliente, cómo ha sido el comportamiento con el portafolio de la empresa y cómo son sus interacciones con los puntos de contacto; lo anterior, permitirá en el momento de tener alguna interacción con el cliente ser lo más empático y asertivo posible. 
 
-    p.mb-4 Es el uso locutor + acompañamiento de imágenes como fondo, el estilo tiene una mezcla entre imagen viva y recursos gráficos vectoriales  se usa cuando un material tiene información de datos numéricos o gráficos de valores. 
+    p.mb-5 Algunos de los atributos que tiene un sistema tipo CRM son los siguientes:
 
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/3b8VctSm558" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-
-    #t_2_5.titulo-segundo
-      .h4 2.5 Video interactivo
-
-    p.mb-4 Visualización de videos con diferentes tipos de preguntas o anotaciones.
-
-    figure.mb-5
-      .video
-        iframe(src="https://vizia.co/videos/94d994c5fe93f1b08a60eb/embed" allowtransparency="true" frameborder="0" scrolling="no" width="640" height="390")
-
-    #t_2_6.titulo-segundo
-      .h4 2.6 Infografías
-
-    p.mb-4 Es una herramienta de comunicación de alta precisión, el cual tiene una narrativa gráfica con un texto corto acompañada de elementos visuales que tienen como intención de captar rápidamente la atención del lector. 
-
-    figure.mb-5
-      img(src='@/assets/curso/infografia-1.jpg', alt='Infografía Fundamentos del Servicio de Interpretación')
-      figcaption Fundamentos del Servicio de Interpretación
-
-    .tarjeta.tarjeta--morada.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              .h5.mb-0 Fundamentos del Servicio de Interpretación
-              p Formato PDF
-            .col-sm-auto
-              a.boton.boton--b(:href="obtenerLink('/downloads/fundamentos_del_servicio_de_Interpretacion.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
     
-    figure.mb-5
-      img(src='@/assets/curso/infografia-2.jpg', alt='Infografía Plan de Negocios')
-      figcaption Plan de Negocios
+    SlyderF.mb-5(columnas="col-lg-6 col-xl-4")(data-aos="zoom-in-down")
+      .tarjeta.p-4.tranform
+        .row.justify-content-center.mb-3
+          .col-8
+            img(src='@/assets/curso/tema1/t1-29.svg' alt='AvatarTop')
+        h2.text-center Vista única del cliente
+        p.text-center Los CRM permiten agrupar la información del cliente integrando ventas, mercadeo y servicio al cliente.
+      .tarjeta.tranform.p-4.tranform
+        .row.justify-content-center.mb-3
+          .col-8
+            img(src='@/assets/curso/tema1/t1-30.svg' alt='AvatarTop')
+        h2.text-center Optimización de procesos comerciales
+        p.text-center Los CRM utilizan los <em>workflow</em> (flujos de trabajo) para eliminar la necesidad de dedicar tiempo a tareas repetitivas. 
+      .tarjeta.tranform.p-4
+        .row.justify-content-center.mb-3
+          .col-8
+            img(src='@/assets/curso/tema1/t1-31.svg' alt='AvatarTop')
+        h2.text-center Seguridad de la información
+        p.text-center Los sistemas CRM tienen protocolos de seguridad que garantizan que la información siempre estará disponible para la empresa.
+      .tarjeta.tranform.p-4
+        .row.justify-content-center.mb-3
+          .col-8
+            img(src='@/assets/curso/tema1/t1-32.svg' alt='AvatarTop')
+        h2.text-center Análisis de información
+        p.text-center Al integrar toda la información de los clientes permite realizar agrupaciones para identificar subsegmentos o nichos de clientes y generar campañas de telemercadeo.
+      .tarjeta.tranform.p-4
+        .row.justify-content-center.mb-3
+          .col-8
+            img(src='@/assets/curso/tema1/t1-33.svg' alt='AvatarTop')
+        h2.text-center Gestión del flujo comercial
+        p.text-center Permite disponer de diferentes opciones y etapas personalizadas de acuerdo con el modelo comercial de la empresa y los flujos de ventas.
 
-    .tarjeta.tarjeta--morada.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              .h5.mb-0 Plan de Negocios
-              p Formato PDF
-            .col-sm-auto
-              a.boton.boton--b(:href="obtenerLink('/downloads/plan_de_negocios.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
+    h2(data-aos="zoom-in-left") Sistemas de facturación
+
+    p.mb-5 Atendiendo al tema de cumplimiento jurídico-tributario o simplemente por organización de la empresa, las organizaciones deben facturar a sus clientes, los tiempos en los cuales la factura era una hoja de papel escrita con lapicero ya quedaron atrás, se requiere rapidez, fiabilidad y trazabilidad, con esos fines los sistemas de información de <em>billing</em> (facturación) surgen para las empresas como una solución en la entrega de facturas a los clientes, incluso ahora por temas de facturación electrónica permiten, incluso, que lleguen a los clientes de forma digital. Por esto, se listan algunas características de este tipo de sistema de facturación:
+
+    .row.mb-5
+      .col-md-4.col-xl.mb-4.mb-xl-0(data-aos="flip-down")
+        .tarjeta-numerada.color-primario.p-5.posit_2
+          .tarjeta-numerada__numero
+            .h2 1
+          p.text-center 
+            b Cumplimiento tributario: 
+          p.text-center Tener en la compañía sistemas de facturación permite estar tranquilo respecto al cumplimiento en temas tributarios, dado que dichos sistemas permiten realizar las configuraciones de impuestos que se requieran.
+      .col-md-4.col-xl.mb-4.mb-xl-0(data-aos="flip-down")
+        .tarjeta-numerada.color-primario.p-5.posit_2
+          .tarjeta-numerada__numero
+            .h2 2
+          p.text-center
+            b Agilidad en la interacción con los clientes: 
+          p.text-center Bajo condiciones estables de conectividad y accesos, los S.I. de facturación permiten realizar de forma rápida la entrega de facturas a los clientes comparado con un proceso manual.
+      .col-md-4.col-xl.mb-4.mb-xl-0(data-aos="flip-down")
+        .tarjeta-numerada.color-primario.p-5.posit_2
+          .tarjeta-numerada__numero
+            .h2 3
+          p.text-center 
+            b Disminución de errores en cobros:
+          p.text-center Las manualidades llevan inmersas el error humano y si bien los S.I. son operados por humanos, con sistemas de Billing, que minimiza el error, dado que una de las finalidades de los facturadores es realizar los cálculos respectivos asociados a cada transacción.
+
+    h2(data-aos="zoom-in-left") Sistemas de inteligencia de negocios
+
+    p.mb-5 Actualmente, el tema de inteligencia de negocios, más conocido como BI es una de las temáticas más abordadas por las empresas, dada la importancia de la toma oportuna de decisiones, de acuerdo con ello, los sistemas de información son la herramienta que ayuda a procesar y a generar información. En el siguiente listado se enuncian algunas características de los S.I. enfocados en la inteligencia de negocios:
+
+    .row.justify-center.mb-5
+      .col-12.col-md-10(data-aos="zoom-in-down")
+        AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
+          .row(titulo="Integración con otras aplicaciones")
+            .col-md-4.mb-4.mb-md-0
+              figure.justify-center
+                img.img200(src='@/assets/curso/tema1/t1-34.svg', alt='Texto que describa la imagen')
+            .col-md-8.align-items-center
+              p.m-0 Los sistemas de BI permiten importar bases de datos desde otras aplicaciones a partir de exportes que suelen ser muy sencillos.
+          .row(titulo="Información en tiempo real")
+            .col-md-4.mb-4.mb-md-0
+              figure.justify-center
+                img.img200(src='@/assets/curso/tema1/t1-35.svg', alt='Texto que describa la imagen')
+            .col-md-8.align-items-center
+              p.m-0 Este es un atributo general de los sistemas de información; sin embargo, es particularmente relevante en temas de BI, dado que el fin último es tener elementos certeros para la toma de decisiones empresariales.
+          .row(titulo="✔	Son herramientas colaborativas")
+            .col-md-4.mb-4.mb-md-0
+              figure.justify-center
+                img.img200(src='@/assets/curso/tema1/t1-36.svg', alt='Texto que describa la imagen')
+            .col-md-8.align-items-center
+              p.m-0 Gracias a que la mayoría de estos sistemas están en la nube, (es decir, están técnicamente en servidores por fuera de la empresa soportados en Internet), ello facilita que los colaboradores de la empresa puedan acceder a los distintos informes que se generan desde dichos aplicativos.
+          .row(titulo="Alcance de visualización")
+            .col-md-4.mb-4.mb-md-0
+              figure.justify-center
+                img.img200(src='@/assets/curso/tema1/t1-37.svg', alt='Texto que describa la imagen')
+            .col-md-8.align-items-center
+              p.m-0 La visualización es el nombre técnico con el cual se conoce el procesamiento, la agrupación y consolidación de los datos para que sean vistos y entendidos por los usuarios. Hoy en día los sistemas de BI tienen grandes bondades en cuanto a este tema, ya que a través de métricas, gráficos y tablas se muestra de forma estética y precisa la información. 
+
+    .row
+      .col-12.col-md-4(data-aos="zoom-in-right")
+        figure.justify-center
+          img.img400(src='@/assets/curso/tema1/t1-38.svg', alt='Texto que describa la imagen')
+      .col-12.col-md-8.align-items-center(data-aos="zoom-in-left")
+        p En este orden de ideas, es muy importante cuando los agentes de servicio ingresan a la operación, determinar cuáles son los sistemas de información que se utilizan en la empresa, establecer para cuáles de ellos se requiere su acceso y por supuesto, realizar un buen proceso de entrenamiento que permita garantizar una buena capacitación en el uso de estas herramientas, especialmente porque se debe tener presente que si bien los sistemas agilizan procesos y están soportados sobre tecnología, un inadecuado uso de estos puede tener grandes implicaciones no solo en temas de experiencia del cliente, sino en reprocesos e incluso hasta en temas legales, dado que para cierto tipo de requerimientos se tienen unos tiempos específicos de respuesta, que en caso de no tenerse podría llevar a la pérdida del cliente y a multas para la compañía.
+            
+              
+
+
+
+ 
+
+          
+            
+         
     
-    figure.mb-5
-      img(src='@/assets/curso/infografia-3.jpg', alt='Infografía Cobertura poblacional')
-      figcaption Cobertura poblacional
-
-    .tarjeta.tarjeta--morada.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              .h5.mb-0 Cobertura poblacional
-              p Formato PDF
-            .col-sm-auto
-              a.boton.boton--b(:href="obtenerLink('/downloads/cobertura_poblacional.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
-    
-    figure.mb-5
-      img(src='@/assets/curso/infografia-4.jpg', alt='Infografía Historia de las microfinanzas: Mohammad Yunus')
-      figcaption Historia de las microfinanzas: Mohammad Yunus
-
-    .tarjeta.tarjeta--morada.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              .h5.mb-0 Historia de las microfinanzas: Mohammad Yunus
-              p Formato PDF
-            .col-sm-auto
-              a.boton.boton--b(:href="obtenerLink('/downloads/historia_de_las_microfinanzas_mohammad_yunus.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
-    
-    figure.mb-5
-      img(src='@/assets/curso/infografia-5.jpg', alt='Infografía Psicología de la moda: sexualidad, ropa mágica, ropa malévola y ropa neurótica')
-      figcaption Psicología de la moda: sexualidad, ropa mágica, ropa malévola y ropa neurótica
-
-    .tarjeta.tarjeta--morada.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              .h5.mb-0 Psicología de la moda: sexualidad, ropa mágica, ropa malévola y ropa neurótica
-              p Formato PDF
-            .col-sm-auto
-              a.boton.boton--b(:href="obtenerLink('/downloads/psicologia_de_la_moda.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
 
 </template>
 
 <script>
+import BotonesC from '../components/BotonesC.vue'
+import BotonesD from '../components/BotonesD.vue'
 export default {
   name: 'Tema2',
+  components: {
+    BotonesC,
+    BotonesD,
+  },
   data: () => ({
     // variables de vue
   }),

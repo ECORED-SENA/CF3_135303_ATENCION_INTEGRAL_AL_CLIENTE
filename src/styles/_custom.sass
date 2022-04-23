@@ -1,3 +1,4 @@
+// TAMAÑO IMAGENES //
 .img30
    max-width: 30px !important
 .img40
@@ -18,16 +19,20 @@
   max-width: 250px !important
 .img350
   max-width: 350px !important
+.img400
+  max-width: 400px !important
 .img450
   max-width: 450px !important
 .img600
   max-width: 600px !important
 .img700
   max-width: 700px !important
+.img800
+  max-width: 800px !important
 .img900
   max-width: 900px !important
 
-
+//ALINEACION DE CONTENIDO //
 .justify-center
   display: flex
   justify-content: center
@@ -35,6 +40,10 @@
 .justify-end
   display: flex
   justify-content: flex-end
+  flex-direction: row
+.justify-star
+  display: flex
+  justify-content: flex-start
   flex-direction: row
 .align-items-center
   display: flex
@@ -45,11 +54,13 @@
   justify-content: flex-end
   flex-direction: row
 
+//FONDO BANNER INTERNO TEMAS//
 .banner-interno__fondo
   background-image: url("../assets/curso/portada/interno.svg") !important
   background-repeat: no-repeat
-  background-color: #F8F5F4 !important
+  background-color: #FFC664 !important
 
+//FONDOS DE CONTENIDO//
 .bg_grad-01
   position: relative
   figure, p, .cajon, .video
@@ -57,15 +68,70 @@
   &::before
     content: ''
     position: absolute
-    margin: 0 -3rem
+    margin: 0
     top: 0
     left: 0
-    width: calc( 100% + 6rem)
+    width: 100%
     height: 100%
     background-image: url("../assets/curso/fondo-intro.png")
     background-repeat: no-repeat
     background-size: contain
 
+.bg_grad-02
+  background-image: url("../assets/curso/tema1/fondo1.svg")
+  background-repeat: no-repeat
+  background-size: cover
+.bg_grad-03
+  background-image: url("../assets/curso/tema1/fondo2.svg")
+  background-repeat: no-repeat
+  background-size: cover
+.bg_grad-04
+  background-image: url("../assets/curso/tema1/fondo3.svg")
+  background-repeat: no-repeat
+  background-size: cover
+.bgr
+  background-color: #FFF0E1 !important
+  &_1
+    background-color: #FFA648 !important
+  &_2
+    background-color: #FFC967 
+    background-repeat: no-repeat
+    background-size: contain !important
+  &_3
+    background-color: #B3B2D4
+    border-radius: 10px
+    height: 100%
+  &_4
+    background-color: #FFD3A3
+    border-radius: 10px
+    height: 100%
+  &_5
+    background-color: #FFEDCC
+    border-radius: 10px
+    height: 100%
+ 
+//POSITION
+.posit
+  margin-top: 100px
+  @media screen and (max-width: $bp-max-xs) 
+    margin-top: 20px
+  &_1
+    margin-top: 150px
+  &_2
+    height: 100%
+  
+//TRANFORMACIONES
+.tranform
+  background-color: #FFE4B3
+  transition: transform .2s;
+  cursor: pointer
+  &:hover
+    background-color: #373660
+    transform: scale(1.11);
+  &::before
+    color: $white
+
+//ANIMACION BANNER PRINCIPAL//
 .banner-principal__img
   align-self: stretch
   background-position: -20% 80%, 50% 50%
@@ -76,21 +142,37 @@
   animation-play-state: running
   animation-timing-function: steps(1, end)
   img
-    display: none !important
+    opacity: 0
   @media screen and (max-width: 1399px)    
     background-size: 60%
     background-position: -32% 78%, 50% 50%
-.banner-principal__img:hover
-  animation-play-state: paused
 
 @keyframes cambiar
   0%
     background-image: url("../assets/curso/portada/estre1.svg")
-  25%
+  20%
     background-image: url("../assets/curso/portada/estre2.svg")
-  50%
+  40%
     background-image: url("../assets/curso/portada/estre3.svg")
-  75%
+  60%
     background-image: url("../assets/curso/portada/estre4.svg")
-  100%
-    background-image: url("../assets/curso/portada/estre1.svg")
+  80%
+    background-image: url("../assets/curso/portada/estre5.svg")
+
+//CLASES SOBRE-ESCRITAS//
+.slyder-a__tipo-a .slyder-a__btn--sigt
+  right: -7px !important
+.slyder-a__tipo-a .slyder-a__btn--atrs
+  left: -7px !important
+.slyder-a__tipo-a .slyder-a__bullets 
+  bottom: 13px !important
+.video iframe
+  height: 86% !important
+  @media screen and (max-width: $bp-max-xs)
+    height: 70% !important
+.text-end
+  text-align: left !important
+.tarjeta--azul
+  background-image: url("../assets/curso/tema1/fondo4.svg") !important
+  background-repeat: no-repeat
+  background-size: cover
