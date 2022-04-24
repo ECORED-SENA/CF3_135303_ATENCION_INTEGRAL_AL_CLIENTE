@@ -46,13 +46,19 @@
   justify-content: flex-start
   flex-direction: row
 .align-items-center
-  display: flex
-  justify-content: flex-start
-  flex-direction: row
+  display: flex;
+  align-items: flex-center;
+  flex-direction: row;
 .align-items-end
   display: flex
-  justify-content: flex-end
+  align-items: flex-end
   flex-direction: row
+.justify-align
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
 
 //FONDO BANNER INTERNO TEMAS//
 .banner-interno__fondo
@@ -87,6 +93,10 @@
   background-size: cover
 .bg_grad-04
   background-image: url("../assets/curso/tema2/fondo3.svg")
+  background-repeat: no-repeat
+  background-size: cover
+.bg_grad-05
+  background-image: url("../assets/curso/tema4/fondo1.svg")
   background-repeat: no-repeat
   background-size: cover
 .bgr
@@ -140,6 +150,23 @@
   &_14
     background-color: #8D8CBE
     border-radius: 20px
+  &_15
+    background-color: #FFC967
+    border-radius: 20px
+    height: 100%
+    text-align: center
+    &:hover
+      background-color: #FFA648 !important
+  &_16
+    background-color: #FFC967
+    border-radius: 20px
+    height: 100%
+  &_17
+    background-color: #FF857B
+  &_18
+    background-color: #FFC485
+  &_19
+    background-color: #FFF6E6 !important
  
 //POSITION
 .posit
@@ -217,3 +244,7 @@
   background-size: cover
 .tabla-a thead
   border-top: none !important
+.modal-a__content
+  background-color: #FFF6E6 !important
+.tabs-a__tab
+  background-color: #E8E8E8
