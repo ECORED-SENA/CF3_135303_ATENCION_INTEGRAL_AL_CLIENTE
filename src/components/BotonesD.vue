@@ -2,7 +2,7 @@
 .btns
   .row.justify-center 
     .col-12.col-md-8.posit_1
-      img.img800(src='@/assets/curso/tema1/t1-28.svg', alt='Texto que describa la imagen')
+      img.img800(src='@/assets/curso/tema2/t2-28.svg', alt='Texto que describa la imagen')
       .btns__item(
         v-for="(boton, index) in botones"
         :style="getStyles(boton, index)"
