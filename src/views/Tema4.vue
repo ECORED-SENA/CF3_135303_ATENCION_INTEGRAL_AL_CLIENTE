@@ -67,13 +67,13 @@
     p.mb-5 Adicionalmente y con el fin de que logre una mayor apropiación sobre este tema se expondrán dos ejemplos que darán alcance a la aplicación de los conceptos vistos sobre requerimientos, esto es:    
 
     .row.justify-center.mb-5
-      .col-12.col-md-5.mb-3.mb-md-0
+      .col-12.col-md-5.mb-3.mb-md-0(data-aos="zoom-in-right")
         div.bgr_17.p-4
           p.text-bold Ejemplo 1
           figure.mb-3  
             img.img450(src='@/assets/curso/tema4/t4-3.png' alt='AvatarTop')
           p Manuel llega a la empresa y le indica que requiere una copia de su última factura porque la necesita para legalizar unos viáticos en su empresa, en este caso lo que Manuel está escalando a la empresa es una <b>petición;</b> sin embargo, el agente de servicio que atiende su requerimiento lo trata de forma descortés y le indica que esto no es posible, por lo que Manuel indica que interpondrá una <b>queja</b> a la empresa por el mal comportamiento del agente de servicio que lo atendió.
-      .col-12.col-md-5
+      .col-12.col-md-5(data-aos="zoom-in-left")
         div.bgr_18.p-4
           p.text-bold Ejemplo 2
           figure.mb-3  
@@ -82,7 +82,7 @@
     
     p.mb-5 Se invita a ver con mayor detalle a través del siguiente gráfico todo lo que tiene que ver con PQRSF:
 
-    TabsA.color-primario.mb-5
+    TabsA.color-primario.mb-5(data-aos="zoom-in-up")
       .tarjeta.color-primario--borde.bgr_19.p-4(titulo="Petición")
         h4 Petición
         p En términos generales, hace referencia a una solicitud formal de un cliente para obtener de igual manera una respuesta de la empresa ante un tema específico, el fin de una petición es “obtener información”. Cabe mencionar, que cuando se indica que es una solicitud formal implica que en la empresa debe quedar trazabilidad de la misma, es decir, documentada o registrada en algún sistema de información, así mismo, al usuario le debe quedar un soporte de su requerimiento, lo que usualmente se conoce como <b>radicado</b> o <b>consecutivo.</b>
@@ -161,30 +161,30 @@
     h2.mb-5(data-aos="zoom-in-left") Seguridad de la información
 
     .row.mb-5
-      .col-12.col-md-4.mb-3.mb-md-0
+      .col-12.col-md-4.mb-3.mb-md-0(data-aos="zoom-in-right")
         figure
           img(src='@/assets/curso/tema4/t4-11.png', alt='Texto que describa la imagen')
-      .col-12.col-md-8
+      .col-12.col-md-8(data-aos="zoom-in-left")
         p Con el fin de comprender de manera asertiva el lenguaje comunicacional en los procesos de atención al cliente y antes de ver el paso a paso para la gestión de requerimientos, se hace necesario conocer algunos conceptos básicos que se tienen a nivel operativo, en este sentido, surgen: la <b>creación</b> del caso, como el momento en el que se formaliza el requerimiento por parte del cliente hacia la empresa; el <b>escalamiento</b> del caso, obedece al momento en el que el agente de servicio debe direccionar el requerimiento para que sea gestionado por otra persona o área de la compañía y el cierre del caso se da cuando el recurso que está atendiendo el requerimiento tiene la competencia para dar la solución al cliente.
         p Ahora bien, desde la perspectiva de la atención al cliente, el procedimiento técnico para la gestión de requerimientos se basa en el protocolo de servicio definido por la compañía, ya que este es elaborado teniendo en cuenta la <b>identidad de la empresa,</b> el <b>perfil de clientes</b> y los <b>diferentes tipos de solicitudes</b> que un cliente pudiese presentar. No obstante, podrían mapearse a través de un flujo como son a nivel general las actividades que sigue la gestión de requerimientos en una compañía, todo ello desde la óptica de un agente de servicio, donde siempre se tendrá como fin la <b>satisfacción de los clientes.</b>
     
     h6.mb-5 Flujo para la atención de requerimientos
 
-    .bgr_19.mb-5 
-      figure.p-2.p-md-5
+    .bgr_19.mb-5
+      figure.p-2.p-md-5(data-aos="zoom-in-up") 
         img(src='@/assets/curso/tema4/t4-12.svg', alt='Texto que describa la imagen')
     
     p Lo que muestra este flujo hace alusión a que el primer paso técnico por parte del agente de ventas es validar la identidad del usuario, posteriormente se debe verificar si el requerimiento que pretende presentar es viable o no para la empresa, ello implica revisar si en efecto está dentro de las políticas y tiempos que tiene en sus lineamientos la organización para registrarlo, una vez se tiene dicha validación se procede a revisar si dentro del perfil el agente tiene el perfil para dar solución, en caso que sí pueda gestionarlo debe proceder a cerrarlo, en caso que no, debe escalarlo al área o persona que corresponda. En cualquiera de estos escenarios siempre deberá cerrar la gestión en el sistema de información o base de datos indicada en el procedimiento de la empresa. 
     p.mb-5 Para un mejor entendimiento de este tema se plantean los siguientes ejemplos:
 
     .row.mb-5
-      .col-12.col-md-6.bgr_1.p-5.mb-3.mb-md-0
+      .col-12.col-md-6.bgr_1.p-5.mb-3.mb-md-0(data-aos="zoom-in-right")
         figure.mb-3
           img.img90(src='@/assets/curso/tema4/t4-13.svg', alt='Texto que describa la imagen')
         h4 Agente de servicio con alcance para dar gestión al requerimiento y cerrarlo
         p El agente de servicio recibe una llamada de un cliente indicando que requiere realizar una devolución de un pedido que llegó con la talla equivocada, el primer paso que hace el agente es validar los datos de la persona que realiza la llamada, una vez realizada la revisión en el CRM y valida que efectivamente la persona sí hizo el pedido y que adicional se encuentra en los días hábiles para realizar el cambio del producto, por lo que procede a ingresarlo en el sistema de información y le informa al cliente que en el transcurso de 5 días hábiles recibirá el nuevo producto y deberá también tener listo el enviado previamente para entregarlo al domiciliario.
         p Estado del caso: cerrado.
-      .col-12.col-md-6.bgr_2.p-5
+      .col-12.col-md-6.bgr_2.p-5(data-aos="zoom-in-left")
         figure.mb-3
           img.img90(src='@/assets/curso/tema4/t4-14.svg', alt='Texto que describa la imagen')
         h4 Agente de servicio NO tiene alcance para dar gestión al requerimiento y escalarlo
@@ -195,7 +195,7 @@
 
     p.mb-5 En un sentido amplio, la inclusión significa <b>considerar y valorar los diferentes puntos de vista</b> bajo las particularidades, estilos y necesidades de las personas. En este sentido, dado que el primer momento de verdad de un cliente cuando está escalando una solicitud a la empresa es la recepción del requerimiento, deben tenerse en cuenta algunas consideraciones en el momento de la interacción entre agente de servicio y cliente; por ello, revise con atención lo que se expone a continuación:
 
-    SlyderD(:datos="datosSlyder")
+    SlyderD(:datos="datosSlyder")(data-aos="zoom-in-up")
 
 
 
