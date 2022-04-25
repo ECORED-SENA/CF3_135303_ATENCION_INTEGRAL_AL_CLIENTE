@@ -72,7 +72,7 @@
             h2 Conceptos clave de las empresas en Colombia
           p.mb-4 Para comprender la dinámica de las empresas en Colombia, lo primero que se debe tener claro es la perspectiva legal. En este orden de ideas, surgen algunos conceptos que se deben apropiar:
           
-          a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/OKEst_DI_CF03_1_Conceptos_empresas.pptx')" target="_blank")
+          a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Conceptos_Empresa.pdf')" target="_blank")
             span Descargar
             i.fas.fa-file-download
 

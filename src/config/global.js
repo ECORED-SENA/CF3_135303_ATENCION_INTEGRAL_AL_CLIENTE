@@ -229,7 +229,7 @@ export default {
       texto:
         'Ley 1755 de 2015 de Colombia. Por medio de la cual se regula el Derecho Fundamental de Petición y se sustituye un título del Código de Procedimiento Administrativo y de lo Contencioso Administrativo. Diciembre 30 de 2015.',
       tipo: 'Ley',
-      link: '/downloads/L-1755-2015.pdf',
+      descarga: '/downloads/L-1755-2015.pdf',
     },
     {
       texto:
