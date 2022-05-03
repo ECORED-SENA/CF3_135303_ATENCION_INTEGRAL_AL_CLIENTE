@@ -1,7 +1,7 @@
 <template lang="pug">
 .btns
   .row.justify-center 
-    .col-12.col-md-4
+    .col-12.col-md-4.position-relative
       img.img400(src='@/assets/curso/tema2/t2-27.svg', alt='Texto que describa la imagen')
       .btns__item(
         v-for="(boton, index) in botones"
@@ -26,31 +26,31 @@ export default {
   data: () => ({
     indicador: true,
     hover: null,
-    size: '15%',
+    size: '36%',
     botones: [
       {
-        pos_x: '34%',
-        pos_y: '2%',
-        left: '-80%',
-        top: '-50%',
+        pos_x1: '51%',
+        pos_y: '11%',
+        left: '40%',
+        top: '0',
         titulo: 'ERP:',
         texto:
           'Sistema de información en el que sistematiza varios procesos de su compañía, se dirá que la empresa tiene un Enterprise Resource Planning (Sistema de planificación de recursos empresariales) más conocido como <b>ERP.</b>',
       },
       {
         pos_x: '51%',
-        pos_y: '2%',
-        right: '-80%',
-        top: '-80%',
+        pos_y: '11%',
+        left: '80%',
+        top: '0%',
         titulo: 'CRM:',
         texto:
           'Sistemas de información enfocados en clientes, es decir, si la empresa posee un sistema de información destinado solo a los clientes, se hará mención a un Customer Relationship Management (Sistema de gestión de las relaciones con los clientes), conocido como <b>CRM.</b>',
       },
       {
-        pos_x: '34%',
+        pos_x1: '51%',
         pos_y: '51%',
-        left: '-80%',
-        top: '30%',
+        left: '20%',
+        top: '0',
         titulo: 'Billing:',
         texto:
           'Sistema enfocado exclusivamente en procesos de facturación y se denomiará <em>Billing</em> (facturadores).',
@@ -58,8 +58,8 @@ export default {
       {
         pos_x: '51%',
         pos_y: '51%',
-        right: '-80%',
-        top: '30%',
+        left: '80%',
+        top: '0%',
         titulo: 'Sistema de BI:',
         texto:
           'Sistema enfocado al procesamiento de información de la empresa, se denomina Business Intelligence (Inteligencia de negocios) referenciado en el ámbito empresarial como <b>sistemas de BI.</b>',
@@ -81,6 +81,7 @@ export default {
         'background-image': `url(${image})`,
         top: boton.pos_y,
         left: boton.pos_x,
+        right: boton.pos_x1,
         width: this.size,
         'padding-top': this.size,
       }
@@ -91,7 +92,7 @@ export default {
 
 <style lang="sass" scoped>
 .btns
-  position: relative
+  //position: relative
   &__item
     width: 80px
     position: absolute

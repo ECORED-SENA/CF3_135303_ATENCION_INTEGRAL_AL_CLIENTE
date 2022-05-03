@@ -84,7 +84,7 @@
     .bg_grad-04
       BotonesD.mb-5(data-aos="zoom-in-up")
 
-    h2.mb-5(data-aos="zoom-in-left") Sistema de información enfocado en clientes
+    h2.mb-5(data-aos="fade-down") Sistema de información enfocado en clientes
 
     p Los S.I. con enfoque al cliente se denominan Customer Relationship Management y son identificados en el ámbito empresarial como CRM. Este sistema permite tener consolidada, organizada y disponible la información de los clientes, de tal forma que el agente de servicio pueda revisar la información del cliente, cómo ha sido el comportamiento con el portafolio de la empresa y cómo son sus interacciones con los puntos de contacto; lo anterior, permitirá en el momento de tener alguna interacción con el cliente ser lo más empático y asertivo posible. 
 
@@ -98,12 +98,12 @@
             img(src='@/assets/curso/tema2/t2-29.svg' alt='AvatarTop')
         h2.text-center Vista única del cliente
         p.text-center Los CRM permiten agrupar la información del cliente integrando ventas, mercadeo y servicio al cliente.
-      .tarjeta.tranform.p-4.tranform
+      .tarjeta.tranform.p-4
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/tema2/t2-30.svg' alt='AvatarTop')
         h2.text-center Optimización de procesos comerciales
-        p.text-center Los CRM utilizan los <em>workflow</em> (flujos de trabajo) para eliminar la necesidad de dedicar tiempo a tareas repetitivas. 
+        p.text-center  
       .tarjeta.tranform.p-4
         .row.justify-content-center.mb-3
           .col-8

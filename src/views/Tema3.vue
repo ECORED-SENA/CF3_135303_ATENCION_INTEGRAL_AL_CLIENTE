@@ -131,7 +131,7 @@
               img.posit_3(src='@/assets/curso/tema3/t3-7.svg' alt='AvatarTop')
               .tarjeta.bgr_8
                 .p-4
-                  h2 Estáticas:
+                  h2 Dinámicas:
                   p Son diseñadas exclusivamente con fines de lectura, almacenamiento y registro de datos históricos, sin embargo, luego son susceptibles de uso para análisis de proyecciones y comportamientos de una determinada variable. Por ejemplo, la empresa puede tener una base de datos del histórico de devoluciones que se han realizado en el último año, dicha información puede ser consultada o ser utilizada para dimensionar los recursos necesarios con el fin de poder atender dichos trámites al año siguiente. En este caso, la variable son las devoluciones y la utilidad será predecir la cantidad de agentes necesarios para atender este tipo de solicitudes.
 
     h3.mb-5(data-aos="zoom-in-left") Bases de datos según el contenido      
@@ -174,9 +174,9 @@
     
     p.mb-5 Las bases de datos <b>transaccionales</b> están orientadas a todo tipo de procesos, tanto básicos como complejos y tienen como característica fundamental que realizan una función determinada, adicionalmente que tienen la ventaja que envían y recepcionan datos a gran velocidad. Por su parte, las bases de datos relacionales, que son hoy en día las más utilizadas optimizan los procesos al interior de las tablas, es decir, el centro de este modelo son las “relaciones” entre datos.
 
-    .row.justify-center
+    .row.justify-center.mb-5
       .col-12.col-md-8(data-aos="zoom-in-up")
-        .cajon.bgr_9.p-4.mb-4
+        .cajon.bgr_9.p-5.mb-4
           p.m-0 Ambos tipos de bases de datos (transaccionales y relacionales) están desarrolladas bajo plataformas denominadas motores de bases de datos como Access, MySQL, Oracle, entre otras y estas a su vez se encuentran conectadas con lenguajes de programación, es decir, con códigos específicos, tales como Phyton, C++, Visual Basic, HTML, etc. y en este sentido la combinación entre un motor de base de datos y el lenguaje de programación da como resultado software (programas) con funciones específicas.
 
     h3.mb-5(data-aos="zoom-in-left") Registro de información en bases de datos
@@ -195,21 +195,21 @@
           img.posit_4(src='@/assets/curso/tema3/t3-12.svg' alt='AvatarTop')
           .tarjeta.bgr_10
             .p-4
-              h2.text-center Rol Administrador
+              h4.text-center Rol Administrador
               p Es aquel que tiene la facultad de realizar cualquier tipo de acciones sobre la base de datos, asociado tanto a los datos como a los usuarios.
       .col-md-4.col-lg.mb-5.mb-lg-0(data-aos="fade-down")
         .tarjeta-avatar
           img.posit_4(src='@/assets/curso/tema3/t3-13.svg' alt='AvatarTop')
           .tarjeta.bgr_10
             .p-4
-              h2.text-center Rol de Registro y Edición
+              h4.text-center Rol de Registro y Edición
               p Este tipo de roles están asociados a aquellos usuarios que ingresan, procesas y/o modifican los datos.
       .col-md-4.col-lg.mb-5.mb-lg-0(data-aos="fade-up")
         .tarjeta-avatar
           img.posit_4(src='@/assets/curso/tema3/t3-14.svg' alt='AvatarTop')
           .tarjeta.bgr_10
             .p-4
-              h2.text-center Rol de Consulta
+              h4.text-center Rol de Consulta
               p Estos usuarios pueden ingresar a la base de datos con la finalidad de detallar la información y algunos casos, bajar información; sin embargo, no pueden modificar.
     
     p.mb-5 De acuerdo con los roles, en cada empresa realizan sobre las bases de datos la asignación de perfiles, entendiendo este último concepto como la asociación para cada rol de transacciones (operaciones) específicas que puede realizar el usuario. A modo de ejemplo y para mayor comprensión se presenta esta situación: 
@@ -228,7 +228,7 @@
     p.mb-5 Dado que hoy en día la información es uno de los activos más importantes en una organización, en temas de bases de datos, no solo es importante garantizar el ingreso de información sino también asegurar la disponibilidad, actualización y alojamiento en pro de la continuidad del negocio. Se invita, a continuación, a que revise más sobre este importante tema:
 
     .row  
-      .col-12.col-md-6(data-aos="zoom-in-up").mb-3
+      .col-12.col-md-6.mb-3(data-aos="zoom-in-right")
         div.bgr_13.p-3
           .row
             .col-3.align-items-center
@@ -237,7 +237,7 @@
                 h4 <em>Back-up</em>
                 p Las empresas deben tener por su seguridad un back-up (respaldo), que permita que en caso de que se tenga alguna falla técnica de tipo informático sea posible seguir contando con la información.
                 p.m-0 Técnicamente los back-up tienen por fin garantizar que la misma información se encuentre disponible mínimo en dos repositorios diferentes, ya sea físicos (instalaciones de la empresa) o en nube (servidores por fuera de ella), esto permitirá hacer frente a los ataques informáticos o errores humanos.      
-      .col-12.col-md-6(data-aos="zoom-in-up")
+      .col-12.col-md-6(data-aos="zoom-in-left")
         div.bgr_14.p-3
           .row
             .col-3.align-items-center

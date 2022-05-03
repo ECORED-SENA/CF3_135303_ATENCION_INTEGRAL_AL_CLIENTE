@@ -1,7 +1,7 @@
 <template lang="pug">
 .btns
   .row.justify-center 
-    .col-12.col-md-8.posit_1
+    .col-12.col-md-8.posit_1.position-relative
       img.img800(src='@/assets/curso/tema2/t2-28.svg', alt='Texto que describa la imagen')
       .btns__item(
         v-for="(boton, index) in botones"
@@ -29,17 +29,17 @@ export default {
     size: '12%',
     botones: [
       {
-        pos_x: '18%',
-        pos_y: '72%',
-        left: '50%',
-        top: '-70%',
+        pos_x: '5%',
+        pos_y: '67%',
+        right: '0',
+        top: '-100',
         titulo: 'Automatización de procesos',
         texto:
           'El ERP tiene como una de sus finalidades, evitar las manualidades y por tanto, optimizar los tiempos de las personas. ',
       },
       {
-        pos_x: '27%',
-        pos_y: '38%',
+        pos_x: '18%',
+        pos_y: '22%',
         left: '0',
         top: '-100%',
         titulo: 'Integración entre plataformas',
@@ -48,7 +48,7 @@ export default {
       },
       {
         pos_x: '43%',
-        pos_y: '26%',
+        pos_y: '6%',
         left: '50%',
         top: '-100%',
         titulo: 'Generación de reportes',
@@ -56,8 +56,8 @@ export default {
           'Los ERP son herramientas muy útiles en el momento de requerirse informes, lo que permite tener un panorama completo con información de calidad.',
       },
       {
-        pos_x: '60%',
-        pos_y: '42%',
+        pos_x: '68%',
+        pos_y: '28%',
         left: '100%',
         top: '-70%',
         titulo: 'Información en tiempo real',
@@ -65,9 +65,9 @@ export default {
           'La empresa tendrá siempre a su disposición la información actualizada para su uso.',
       },
       {
-        pos_x: '70%',
-        pos_y: '72%',
-        left: '100%',
+        pos_x: '82%',
+        pos_y: '68%',
+        left: '-18%',
         top: '-70%',
         titulo: 'Flexibilidad para la implementación',
         texto:
@@ -126,9 +126,9 @@ export default {
       left: 3%
       width: 91px
 
-@media (max-width: $bp-max-md)
+@media (max-width: $bp-max-xs)
   .btns__text
     text-align: center
     width: 200px
-    left: 50%
+    left: 100px
 </style>

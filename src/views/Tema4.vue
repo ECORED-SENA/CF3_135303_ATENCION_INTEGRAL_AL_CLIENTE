@@ -55,11 +55,11 @@
           h4 Peticiones, quejas, reclamos, sugerencias, felicitaciones (PQRSF):  
           p Las Peticiones (P), Quejas (Q), Reclamos (R), Sugerencias (S) y Felicitaciones (F) son en muchas ocasiones la mayor composición dentro de los requerimientos de los usuarios, ya que la mayoría de sus solicitudes hacia la empresa están enfocadas en ellas. A nivel general, las PQRS hacen alusión a inconformidades o dificultades con la empresa, su personal o los productos adquiridos, mientras que las felicitaciones aluden a un reconocimiento de cliente hacia la empresa y las sugerencias una visión de mejora desde una perspectiva propositiva. 
     
-    p.mb-5 Atendiendo la importancia de este tema, se invita a revisar el video que se muestra a continuación, con el fin de hacer mayor énfasis en las PQRSF:
+    p.mb-3.mb-md-5 Atendiendo la importancia de este tema, se invita a revisar el video que se muestra a continuación, con el fin de hacer mayor énfasis en las PQRSF:
 
     .bg_grad-01
       .row.justify-center.pt-5.pb-5
-        .col-10
+        .col-12.col-md-10
           figure
             .video
               iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)

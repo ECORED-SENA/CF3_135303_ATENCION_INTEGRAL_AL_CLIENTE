@@ -132,7 +132,7 @@
     h2.mb-5(data-aos="zoom-in-left") Las empresas, la inclusión y la discapacidad
     
     .row.mb-3
-      .col-12.col-md-4(data-aos="zoom-in-left")
+      .col-12.col-md-4(data-aos="zoom-in-left").mb-3.mb-md-0
         figure
           img(src="@/assets/curso/tema1/t1-17.png")
       .col-12.col-md-8(data-aos="zoom-in-right")
