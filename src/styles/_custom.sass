@@ -206,12 +206,11 @@
 //TRANFORMACIONES
 .tranform
   background-color: #FFE4B3
-  transition: transform .2s;
   cursor: pointer
   &:hover
     background-color: #373660
-    transform: scale(1.11);
-    color: white !important
+    h4, p
+      color: white !important
   &::before
     color: $white
 .tranform_1
@@ -275,3 +274,5 @@
   background-color: #373660
 .tarjeta-flip.color-primario .tarjeta-flip__contenido
   background-color: #FFEDCC
+.horizontal-scroll
+  align-items: stretch  !important

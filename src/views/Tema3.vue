@@ -75,7 +75,7 @@
                   td Cali
           p.mb-5.p-3.p-md-0 De acuerdo con los conceptos vistos previamente, en la tabla expuesta se observan cuatro registros de clientes y para cada uno se relacionan seis campos: apellido, nombres, empresa, número de contacto, correo electrónico y municipio. En el entendimiento de las bases de datos se debe tener presente que la primera fila hace relación a los campos de la base de datos, por tanto, no se consideran registros.
     
-    h2.mb-5(data-aos="zoom-in-left") Tipos de bases de datos
+    h3.mb-5(data-aos="zoom-in-left") Tipos de bases de datos
 
     p.mb-5 A nivel de informática existen varios tipos de bases de datos, lo anterior, dado que las bases de datos varían según el fin con el cual se almacenará la información y el posterior uso que se le dará a dicha información. En cuanto a lo que tiene que ver con servicio al cliente, se hará mención a dos de estas clasificaciones: según la variabilidad y según el contenido. A continuación, podrá apropiar los tipos de bases de datos de una forma más clara:
 
@@ -87,7 +87,7 @@
           .tarjeta.bgr_7
             .p-4
               div
-                h2 Variabilidad
+                h3 Variabilidad
                 p.m-0 Estáticas
                 p.m-0 Dinámicas
       .col-lg-4(data-aos="fade-down")
@@ -97,7 +97,7 @@
           .tarjeta.bgr_7
             .p-3
               div
-                h2 Según el contenido
+                h3 Según el contenido
                 p.m-0 Bibliográficas
                 p.m-0 De texto completo
                 p.m-0 De directorio
@@ -108,7 +108,7 @@
           .tarjeta.bgr_7
             .p-4
               div
-                h2 Según los modelos
+                h3 Según los modelos
                 p.m-0 Transaccionales
                 p.m-0 Relacionales
     
@@ -124,14 +124,14 @@
               img.posit_3(src='@/assets/curso/tema3/t3-6.svg' alt='AvatarTop')
               .tarjeta.bgr_4
                 .p-4
-                  h2 Estáticas:
+                  h3 Estáticas:
                   p Son diseñadas exclusivamente con fines de lectura, almacenamiento y registro de datos históricos, sin embargo, luego son susceptibles de uso para análisis de proyecciones y comportamientos de una determinada variable. Por ejemplo, la empresa puede tener una base de datos del histórico de devoluciones que se han realizado en el último año, dicha información puede ser consultada o ser utilizada para dimensionar los recursos necesarios con el fin de poder atender dichos trámites al año siguiente. En este caso, la variable son las devoluciones y la utilidad será predecir la cantidad de agentes necesarios para atender este tipo de solicitudes.
           .col-md-6.col-lg.mb-5.mb-lg-0(data-aos="fade-down")
             .tarjeta-avatar
               img.posit_3(src='@/assets/curso/tema3/t3-7.svg' alt='AvatarTop')
               .tarjeta.bgr_8
                 .p-4
-                  h2 Dinámicas:
+                  h3 Dinámicas:
                   p Son diseñadas exclusivamente con fines de lectura, almacenamiento y registro de datos históricos, sin embargo, luego son susceptibles de uso para análisis de proyecciones y comportamientos de una determinada variable. Por ejemplo, la empresa puede tener una base de datos del histórico de devoluciones que se han realizado en el último año, dicha información puede ser consultada o ser utilizada para dimensionar los recursos necesarios con el fin de poder atender dichos trámites al año siguiente. En este caso, la variable son las devoluciones y la utilidad será predecir la cantidad de agentes necesarios para atender este tipo de solicitudes.
 
     h3.mb-5(data-aos="zoom-in-left") Bases de datos según el contenido      

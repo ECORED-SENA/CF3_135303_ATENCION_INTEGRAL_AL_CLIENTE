@@ -38,7 +38,7 @@
                   span 
                 | En sentido práctico, son los “peros” que expone el cliente potencial al vendedor durante el proceso de la venta.
 
-    h2.mb-5(data-aos="zoom-in-left") Tipos de objeciones
+    h3.mb-5(data-aos="zoom-in-left") Tipos de objeciones
 
     p.mb-5 Las objeciones desde la perspectiva de servicio, al igual que la mayoría de temas vistos, no tienen una única orientación; sin embargo, hay consenso en que existen a nivel general, dos tipos, los cuales se describen a continuación:
 
@@ -96,7 +96,7 @@
         .titulo-sexto.color-secundario
           span <b>La experiencia,</b> cada vez que se tiene mayor contacto con los clientes se van adquiriendo más destrezas para interactuar y manejar situaciones que a simple vista incluso pueden ser inmanejables.
     
-    h2.mb-5(data-aos="zoom-in-left") Resolución de objeciones
+    h3.mb-5(data-aos="zoom-in-left") Resolución de objeciones
 
     p.mb-5 Navarro (2012) en su libro <b>Técnicas de ventas</b> propone un esquema interesante para el manejo de objeciones, comenzando por la <b>escucha</b> como el principio básico de la comunicación, luego a partir de la asertividad <b>anticiparse</b> a posibles alternativas de respuesta o solución, posteriormente a través de un ejercicio de empatía <b>comprender</b> la situación y finalmente si el cliente aún tiene inquietudes y <b>refuta</b> lo expuesto, exponer con argumentos claros y respetuosos la alternativa de solución.
 

@@ -58,7 +58,7 @@
               p #[strong Misión:] el SENA está encargado de cumplir la función que le corresponde al Estado de invertir en el desarrollo social y técnico de los trabajadores colombianos, ofreciendo y ejecutando la formación profesional integral, para la incorporación y el desarrollo de las personas en actividades productivas que contribuyan al desarrollo social, económico y tecnológico del país (Ley 119/1994).
               p #[strong Visión:] en el año 2022 el SENA se consolidará como una entidad referente de formación integral para el trabajo, por su aporte a la empleabilidad, el emprendimiento y la equidad, que atiende con pertinencia y calidad las necesidades productivas y sociales del país.
 
-    h2.mb-5(data-aos="zoom-in-left") Conceptos clave de las empresas en Colombia
+    h3.mb-5(data-aos="zoom-in-left") Conceptos clave de las empresas en Colombia
     
     p.mb-5 Estos conceptos se describen en detalle en el siguiente documento
 
@@ -69,14 +69,14 @@
 
         .col-md.col-lg-6
           .titulo-segundo.color-secundario
-            h2 Conceptos clave de las empresas en Colombia
+            h3 Conceptos clave de las empresas en Colombia
           p.mb-4 Para comprender la dinámica de las empresas en Colombia, lo primero que se debe tener claro es la perspectiva legal. En este orden de ideas, surgen algunos conceptos que se deben apropiar:
           
           a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Conceptos_Empresa.pdf')" target="_blank")
             span Descargar
             i.fas.fa-file-download
 
-    h2.mb-5(data-aos="zoom-in-left") Funcionamiento de las empresas
+    h3.mb-5(data-aos="zoom-in-left") Funcionamiento de las empresas
 
     p.mb-5 Todo en la vida requiere de una estructura para poder funcionar de manera adecuada y las empresas no son la excepción, es por ello que la organización dependiendo de su tamaño y su planeación estratégica, define cómo en términos de recursos humanos orientarán su funcionamiento, lo cual a su vez se refleja en sus esquemas de mando y asignación de responsabilidades. A nivel general, se conocen cuatro tipos de mando que son el  horizontal, vertical, circular o mixtos, los cuales podrá ver con mayor detalle a continuación:
 
@@ -129,7 +129,7 @@
     p En Colombia, muchas de las empresas operan con estructuras verticales donde las áreas están estructuradas a partir de organigramas (cartas organizacionales) donde se tienen unos líderes, que gestionan los equipos y reportan a sus jefes, que siempre están por encima de ellos; sin embargo, en varias empresas, especialmente del sector servicios, del sector de la tecnología y otras lideradas por personas jóvenes, las estructuras circulares comienzan a ganar participación, apareciendo en el centro de la organización el cliente.
     p.mb-5 Podría decirse entonces que las organizaciones de acuerdo con su planeación estratégica y la visión de sus entes de dirección elegirán cuál es la estructura a implementar, lo que no solo se reflejará en sus líneas de mando y decisión, sino también en su #[strong cultura organizacional,] representando así los valores y prácticas que personifican la marca y sus colaboradores.
 
-    h2.mb-5(data-aos="zoom-in-left") Las empresas, la inclusión y la discapacidad
+    h3.mb-5(data-aos="zoom-in-left") Las empresas, la inclusión y la discapacidad
     
     .row.mb-3
       .col-12.col-md-4(data-aos="zoom-in-left").mb-3.mb-md-0

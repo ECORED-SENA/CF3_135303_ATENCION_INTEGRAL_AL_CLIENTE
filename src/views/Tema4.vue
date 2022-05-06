@@ -9,7 +9,7 @@
     
     p.mb-5 Un requerimiento en términos de servicio al cliente es cualquier solicitud que realiza un cliente a una empresa a través de un canal oficial habilitado por la compañía. Son muy importantes estos requerimientos, ya que son los que materializan las <b>necesidades de los clientes</b> y en este sentido, permiten a la empresa tener contacto efectivo con ellos y en un escenario ideal obtener información valiosa para fidelizarlos e incluso para anticiparse a sus próximas necesidades de compra.
 
-    h2.mb-5(data-aos="zoom-in-left") Características de los requerimientos
+    h3.mb-5(data-aos="zoom-in-left") Características de los requerimientos
 
     p Las características están asociadas a su tipología, ya que dependiendo de ella dará el alcance para la aplicación del protocolo del servicio y en términos de personal, define incluso un perfil para el tipo de personal que se requiere para gestionar cada uno de ellos, por ejemplo, el perfil para una persona de televentas no es el mismo para una persona de servicio enfocada en soporte técnico.
     p.mb-5 Estos son los tipos de requerimientos que se abordan en las empresas con presencia en Colombia:
@@ -158,7 +158,7 @@
               h4 Otros tipos de requerimientos
               p Las actividades de preventa, el agendamiento de citas, la actualización de bases de datos, la toma de domicilios y referidos de clientes. 
 
-    h2.mb-5(data-aos="zoom-in-left") Seguridad de la información
+    h3.mb-5(data-aos="zoom-in-left") Seguridad de la información
 
     .row.mb-5
       .col-12.col-md-4.mb-3.mb-md-0(data-aos="zoom-in-right")
@@ -191,7 +191,7 @@
         p El agente de servicio recibe una llamada de un cliente indicando que su servicio de Internet no funciona, el agente procede a realizar las validaciones sobre el usuario, una vez identifica que el suscriptor sí es quien dice ser, registra en el CRM el daño y le informa al cliente que el caso ha sido creado, escalando el caso para que sea atendido por el equipo de mantenimiento de redes quienes en el transcurso del día irán a su domicilio a resolver la situación.
         p Estado del caso: escalado.
 
-    h2.mb-5(data-aos="zoom-in-left") Inclusión en la recepción de requerimientos desde el rol de agente de servicio
+    h3.mb-5(data-aos="zoom-in-left") Inclusión en la recepción de requerimientos desde el rol de agente de servicio
 
     p.mb-5 En un sentido amplio, la inclusión significa <b>considerar y valorar los diferentes puntos de vista</b> bajo las particularidades, estilos y necesidades de las personas. En este sentido, dado que el primer momento de verdad de un cliente cuando está escalando una solicitud a la empresa es la recepción del requerimiento, deben tenerse en cuenta algunas consideraciones en el momento de la interacción entre agente de servicio y cliente; por ello, revise con atención lo que se expone a continuación:
 

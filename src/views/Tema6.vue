@@ -44,7 +44,7 @@
         p A nivel de formatos, la mayoría de informes son realizados en programas de ofimática, tipo procesador de datos (Word) o tipo presentación (Power Point) y entregados en formato no editable (tipo PDF). No obstante, las empresas que implementan informes o reportes en aplicaciones de inteligencia de negocios (BI) acuden a la herramienta de visualización, con el fin de tener la información de forma digital y en tiempo real, lo anterior se conoce como <em>“dashboards”</em> o tableros de visualización, cada vez más implementados en las compañías.
         p.mb-5 Algunas de las aplicaciones de la inteligencia de negocios, que tienen componente de visualización de información son Power BI (de Microsoft), Qlik y Tableau.
     
-    h2.mb-5(data-aos="zoom-in-left") Tipos de informe según su contenido
+    h3.mb-5(data-aos="zoom-in-left") Tipos de informe según su contenido
 
     p.mb-5 Según su contenido, los informes pueden ser clasificados en: 
 

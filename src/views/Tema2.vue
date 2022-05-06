@@ -21,7 +21,7 @@
         .titulo-sexto.color-acento-contenido
           span Es un sistema de tipo informático que posibilita la obtención, gestión y administración de la información de una forma ordenada y lógica, y con un fin determinado.
     
-    h2.mb-5(data-aos="zoom-in-left") Importancia de los sistemas de Información
+    h3.mb-5(data-aos="zoom-in-left") Importancia de los sistemas de Información
 
     p Los sistemas de Información probablemente nunca han cobrado tanta vigencia como actualmente, aquellos tiempos en donde las cuentas e informes se hacían en hojas en papel bond o en calculadoras quedaron atrás, los S.I. llegaron para quedarse, por lo que cada vez son más completos y útiles para las empresas y sus colaboradores. A continuación, se listan algunos aspectos que muestran de una forma explícita por qué los sistemas de información son tan relevantes para las compañías, esto es:
 
@@ -69,7 +69,7 @@
           .col-12.col-md-10
             p En resumen y atendiendo lo visto anteriormente sobre los S.I, estos son herramientas que permiten obtener, almacenar, administrar, procesar, controlar, distribuir y custodiar la información de la empresa de una forma tecnológica y confiable y aunque, si bien en el momento inicial pueden suponer una inversión considerable cuando se compran o se desarrollan <em>in house</em> (es decir, se realizan al interior de la empresa), la optimización a la que llevan, la minimización de los errores y la calidad de la información que se va a tener sin duda genera una relación costo - beneficio positiva.
     
-    h2.mb-5(data-aos="zoom-in-left").mt-5 Tipos de sistemas de información
+    h3.mb-5(data-aos="zoom-in-left").mt-5 Tipos de sistemas de información
 
     p.mb-5 Probablemente existan tantos tipos y clasificaciones de los sistemas de información como autores han hecho mención del tema; sin embargo, planteando la tipología en la forma cómo funcionan las empresas, se plantean los tipos de S.I. enfocados en el proceso o la variable al que responden; en este sentido, se visionan los siguientes S.I. como aquellos más usados en las empresas: 
 
@@ -77,14 +77,14 @@
 
     p.mb-5 Vale la pena mencionar que a nivel general, entre mayor sea el tamaño de la empresa mayor será la probabilidad que incorpore varios o todos estos tipos de sistemas de información, de manera análoga entre más pequeña sea la compañía menor será el nivel de usabilidad de estas herramientas.
 
-    h2.mb-5(data-aos="zoom-in-left") Sistemas de información transversales
+    h3.mb-5(data-aos="zoom-in-left") Sistemas de información transversales
 
     p.mb-5 De otra parte, existen diversos sistemas de información que cuentan con la capacidad para considerarse S.I. transversales en una organización. Se invita a que revise cuáles son y cuáles son sus características:
 
     .bg_grad-04
       BotonesD.mb-5(data-aos="zoom-in-up")
 
-    h2.mb-5(data-aos="fade-down") Sistema de información enfocado en clientes
+    h3.mb-5(data-aos="fade-down") Sistema de información enfocado en clientes
 
     p Los S.I. con enfoque al cliente se denominan Customer Relationship Management y son identificados en el ámbito empresarial como CRM. Este sistema permite tener consolidada, organizada y disponible la información de los clientes, de tal forma que el agente de servicio pueda revisar la información del cliente, cómo ha sido el comportamiento con el portafolio de la empresa y cómo son sus interacciones con los puntos de contacto; lo anterior, permitirá en el momento de tener alguna interacción con el cliente ser lo más empático y asertivo posible. 
 
@@ -92,38 +92,38 @@
 
     
     SlyderF.mb-5(columnas="col-lg-6 col-xl-4")(data-aos="zoom-in-down")
-      .tarjeta.p-4.tranform
+      .tarjeta.p-4.tranform.h-100
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/tema2/t2-29.svg' alt='AvatarTop')
-        h2.text-center Vista única del cliente
+        h4.text-center Vista única del cliente
         p.text-center Los CRM permiten agrupar la información del cliente integrando ventas, mercadeo y servicio al cliente.
-      .tarjeta.tranform.p-4
+      .tarjeta.tranform.p-4.h-100
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/tema2/t2-30.svg' alt='AvatarTop')
-        h2.text-center Optimización de procesos comerciales
+        h4.text-center Optimización de procesos comerciales
         p.text-center  
-      .tarjeta.tranform.p-4
+      .tarjeta.tranform.p-4.h-100
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/tema2/t2-31.svg' alt='AvatarTop')
-        h2.text-center Seguridad de la información
+        h4.text-center Seguridad de la información
         p.text-center Los sistemas CRM tienen protocolos de seguridad que garantizan que la información siempre estará disponible para la empresa.
-      .tarjeta.tranform.p-4
+      .tarjeta.tranform.p-4.h-100
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/tema2/t2-32.svg' alt='AvatarTop')
-        h2.text-center Análisis de información
+        h4.text-center Análisis de información
         p.text-center Al integrar toda la información de los clientes permite realizar agrupaciones para identificar subsegmentos o nichos de clientes y generar campañas de telemercadeo.
-      .tarjeta.tranform.p-4
+      .tarjeta.tranform.p-4.h-100
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/tema2/t2-33.svg' alt='AvatarTop')
-        h2.text-center Gestión del flujo comercial
+        h4.text-center Gestión del flujo comercial
         p.text-center Permite disponer de diferentes opciones y etapas personalizadas de acuerdo con el modelo comercial de la empresa y los flujos de ventas.
 
-    h2.mb-5(data-aos="zoom-in-left") Sistemas de facturación
+    h3.mb-5(data-aos="zoom-in-left") Sistemas de facturación
 
     p.mb-5 Atendiendo al tema de cumplimiento jurídico-tributario o simplemente por organización de la empresa, las organizaciones deben facturar a sus clientes, los tiempos en los cuales la factura era una hoja de papel escrita con lapicero ya quedaron atrás, se requiere rapidez, fiabilidad y trazabilidad, con esos fines los sistemas de información de <em>billing</em> (facturación) surgen para las empresas como una solución en la entrega de facturas a los clientes, incluso ahora por temas de facturación electrónica permiten, incluso, que lleguen a los clientes de forma digital. Por esto, se listan algunas características de este tipo de sistema de facturación:
 
@@ -150,7 +150,7 @@
             b Disminución de errores en cobros:
           p.text-center Las manualidades llevan inmersas el error humano y si bien los S.I. son operados por humanos, con sistemas de Billing, que minimiza el error, dado que una de las finalidades de los facturadores es realizar los cálculos respectivos asociados a cada transacción.
 
-    h2.mb-5(data-aos="zoom-in-left") Sistemas de inteligencia de negocios
+    h3.mb-5(data-aos="zoom-in-left") Sistemas de inteligencia de negocios
 
     p.mb-5 Actualmente, el tema de inteligencia de negocios, más conocido como BI es una de las temáticas más abordadas por las empresas, dada la importancia de la toma oportuna de decisiones, de acuerdo con ello, los sistemas de información son la herramienta que ayuda a procesar y a generar información. En el siguiente listado se enuncian algunas características de los S.I. enfocados en la inteligencia de negocios:
 
