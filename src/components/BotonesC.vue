@@ -33,7 +33,7 @@ export default {
         pos_y: '11%',
         left: '40%',
         top: '0',
-        titulo: 'ERP:',
+        titulo: 'ERP',
         texto:
           'Sistema de información en el que sistematiza varios procesos de su compañía, se dirá que la empresa tiene un Enterprise Resource Planning (Sistema de planificación de recursos empresariales) más conocido como <b>ERP.</b>',
       },
@@ -42,7 +42,7 @@ export default {
         pos_y: '11%',
         left: '80%',
         top: '0%',
-        titulo: 'CRM:',
+        titulo: 'CRM',
         texto:
           'Sistemas de información enfocados en clientes, es decir, si la empresa posee un sistema de información destinado solo a los clientes, se hará mención a un Customer Relationship Management (Sistema de gestión de las relaciones con los clientes), conocido como <b>CRM.</b>',
       },
@@ -51,16 +51,16 @@ export default {
         pos_y: '51%',
         left: '20%',
         top: '0',
-        titulo: 'Billing:',
+        titulo: 'Billing',
         texto:
-          'Sistema enfocado exclusivamente en procesos de facturación y se denomiará <em>Billing</em> (facturadores).',
+          'Sistema enfocado exclusivamente en procesos de facturación y se denominará <em>Billing</em> (facturadores).',
       },
       {
         pos_x: '51%',
         pos_y: '51%',
         left: '80%',
         top: '0%',
-        titulo: 'Sistema de BI:',
+        titulo: 'Sistema de BI',
         texto:
           'Sistema enfocado al procesamiento de información de la empresa, se denomina Business Intelligence (Inteligencia de negocios) referenciado en el ámbito empresarial como <b>sistemas de BI.</b>',
       },

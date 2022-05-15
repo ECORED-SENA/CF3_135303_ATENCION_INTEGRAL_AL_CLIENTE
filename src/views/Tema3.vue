@@ -114,7 +114,7 @@
     
     h3.mb-5(data-aos="zoom-in-left") Bases de datos según la variabilidad
 
-    p.mb-5 La agrupación con base en la variabilidad se da a partir del modelo en que los datos están estructurados dentro de la base de datos. En esta categoría existen dos tipos que son:
+    p.mb-5 La agrupación con base en la variabilidad se da a partir del modelo en que los datos están estructurados dentro de la <b>base de datos</b>. En esta categoría existen dos tipos que son:
 
     .row.mb-5.justify-center
       .col-12.col-md-10
@@ -124,14 +124,14 @@
               img.posit_3(src='@/assets/curso/tema3/t3-6.svg' alt='AvatarTop')
               .tarjeta.bgr_4
                 .p-4
-                  h3 Estáticas:
+                  h3 Estáticas
                   p Son diseñadas exclusivamente con fines de lectura, almacenamiento y registro de datos históricos, sin embargo, luego son susceptibles de uso para análisis de proyecciones y comportamientos de una determinada variable. Por ejemplo, la empresa puede tener una base de datos del histórico de devoluciones que se han realizado en el último año, dicha información puede ser consultada o ser utilizada para dimensionar los recursos necesarios con el fin de poder atender dichos trámites al año siguiente. En este caso, la variable son las devoluciones y la utilidad será predecir la cantidad de agentes necesarios para atender este tipo de solicitudes.
           .col-md-6.col-lg.mb-5.mb-lg-0(data-aos="fade-down")
             .tarjeta-avatar
               img.posit_3(src='@/assets/curso/tema3/t3-7.svg' alt='AvatarTop')
               .tarjeta.bgr_8
                 .p-4
-                  h3 Dinámicas:
+                  h3 Dinámicas
                   p Son diseñadas exclusivamente con fines de lectura, almacenamiento y registro de datos históricos, sin embargo, luego son susceptibles de uso para análisis de proyecciones y comportamientos de una determinada variable. Por ejemplo, la empresa puede tener una base de datos del histórico de devoluciones que se han realizado en el último año, dicha información puede ser consultada o ser utilizada para dimensionar los recursos necesarios con el fin de poder atender dichos trámites al año siguiente. En este caso, la variable son las devoluciones y la utilidad será predecir la cantidad de agentes necesarios para atender este tipo de solicitudes.
 
     h3.mb-5(data-aos="zoom-in-left") Bases de datos según el contenido      

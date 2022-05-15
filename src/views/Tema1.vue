@@ -17,7 +17,7 @@
             figure
               img(src='@/assets/curso/tema1/t1-1.png', alt='Texto que describa la imagen')
           .col-md-5.align-items-center
-            p Atendiendo a su finalidad, las empresas son creadas para atender a una #[strong misión económica], a través de la generación de lucro y una #[strong misión social]dada la oportunidad que presentan para la creación de empleo, a la vez que contribuyen a la satisfacción de las necesidades humanas. 
+            p Atendiendo a su finalidad, las empresas son creadas para atender a una #[strong misión económica], a través de la generación de lucro y una #[strong misión social] dada la oportunidad que presentan para la creación de empleo, a la vez que contribuyen a la satisfacción de las necesidades humanas. 
         .row.p-5
           .col-md-7.mb-4.mb-md-0
             figure

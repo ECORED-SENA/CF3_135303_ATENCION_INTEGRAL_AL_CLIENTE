@@ -158,7 +158,7 @@
               h4 Otros tipos de requerimientos
               p Las actividades de preventa, el agendamiento de citas, la actualización de bases de datos, la toma de domicilios y referidos de clientes. 
 
-    h3.mb-5(data-aos="zoom-in-left") Seguridad de la información
+    h3.mb-5(data-aos="zoom-in-left") Técnicas para la gestión de requerimientos
 
     .row.mb-5
       .col-12.col-md-4.mb-3.mb-md-0(data-aos="zoom-in-right")

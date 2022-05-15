@@ -22,7 +22,7 @@
         .col-12.col-md-3
           figure.p-4
             img(src='@/assets/curso/tema5/t5-2.png', alt='Texto que describa la imagen')
-        .col-12.col-md-9.align-items-center
+        .col-12.col-md-9.align-items-center.p-3
           div.p-4.p-md-0
             ol.lista-ol--cuadro.mb-0
               li 
@@ -47,7 +47,7 @@
         div.bgr_21.p-5.mb-3.mb-md-0
           figure.mb-3
             img.img90(src='@/assets/curso/tema5/t5-3.svg', alt='Texto que describa la imagen')
-          h4 Objeciones verdaderas: 
+          h4 Objeciones verdaderas 
           p.mb-5 Se presentan cuando el cliente está realmente interesado en el tema a tratar; sin embargo, manifiesta inquietudes o dudas respecto a la información que se le está suministrando y si las respuestas realmente satisfacen las necesidades que él tiene, por lo que busca canalizarlas a través del agente de servicio.
           a.boton.bgr_23.indicador__container(@click="modal1 = true")
             span Ejemplo
@@ -57,7 +57,7 @@
         div.bgr_22.p-5.mb-3.mb-md-0
           figure.mb-3
             img.img90(src='@/assets/curso/tema5/t5-4.svg', alt='Texto que describa la imagen')
-          h4 Objeciones falsas: 
+          h4 Objeciones falsas 
           p Se dan cuando el cliente no está interesado en la información o en el producto, y por ende basa la comunicación en pretextos o cuestionamientos sin racionalidad, con el fin de dispersar la conversación o no manifestar la razón real por la que no desea adquirir los productos de la empresa o no desea tener relación comercial con ella.
           a.boton.bgr_23.indicador__container(@click="modal2 = true")
             span Ejemplo

@@ -36,11 +36,11 @@
               .col-md-8(data-aos="slide-left")
                 p Permiten #[strong procesar] la información y generar nuevos datos de interés para la compañía.
             .row.align-items-center
+              .col-md-8(data-aos="slide-left")
+                p Permite tener #[strong control] sobre la información a nivel organizacional y de usuarios.
               .col-md-4.mb-4.mb-md-0(data-aos="slide-right")
                 figure.justify-center
                   img.img90(src='@/assets/curso/tema2/t2-22.svg', alt='Texto que describa la imagen')
-              .col-md-8(data-aos="slide-left")
-                p Permite tener #[strong control] sobre la información a nivel organizacional y de usuarios.
             .row.align-items-center
               .col-md-4.mb-4.mb-md-0(data-aos="slide-right")
                 figure.justify-center
@@ -48,11 +48,11 @@
               .col-md-8(data-aos="slide-left")
                 p Posibilita la #[strong distribución] de la información asociado al uso de permisos y ambientes de colaboración.
             .row.align-items-center
+              .col-md-8(data-aos="slide-left")
+                p Permiten #[strong obtener datos] de diversas fuentes de información de la empresa tanto internas como externas.
               .col-md-4.mb-4.mb-md-0(data-aos="slide-right")
                 figure.justify-center
                   img.img90(src='@/assets/curso/tema2/t2-24.svg', alt='Texto que describa la imagen')
-              .col-md-8(data-aos="slide-left")
-                p Permiten #[strong obtener datos] de diversas fuentes de información de la empresa tanto internas como externas.
             .row.align-items-center
               .col-md-4.mb-4.mb-md-0(data-aos="slide-right")
                 figure.justify-center
@@ -60,11 +60,11 @@
               .col-md-8(data-aos="slide-left")
                 p #[strong Almacenan] la información de una forma centralizada y segura.
             .row.align-items-center
+              .col-md-8(data-aos="slide-left")
+                p Permite #[strong administrar la información] desde la lógica de procesos, por lo que la consolidación de la información es un beneficio sustancial.
               .col-md-4.mb-4.mb-md-0(data-aos="slide-right")
                 figure.justify-center
                   img.img90(src='@/assets/curso/tema2/t2-26.svg', alt='Texto que describa la imagen')
-              .col-md-8(data-aos="slide-left")
-                p Permite #[strong administrar la información] desde la lógica de procesos, por lo que la consolidación de la información es un beneficio sustancial.
         .row.justify-center
           .col-12.col-md-10
             p En resumen y atendiendo lo visto anteriormente sobre los S.I, estos son herramientas que permiten obtener, almacenar, administrar, procesar, controlar, distribuir y custodiar la información de la empresa de una forma tecnológica y confiable y aunque, si bien en el momento inicial pueden suponer una inversión considerable cuando se compran o se desarrollan <em>in house</em> (es decir, se realizan al interior de la empresa), la optimización a la que llevan, la minimización de los errores y la calidad de la información que se va a tener sin duda genera una relación costo - beneficio positiva.
@@ -103,7 +103,7 @@
           .col-8
             img(src='@/assets/curso/tema2/t2-30.svg' alt='AvatarTop')
         h4.text-center Optimización de procesos comerciales
-        p.text-center  
+        p.text-center los CRM utilizan los workflow (flujos de trabajo) para eliminar la necesidad de dedicar tiempo a tareas repetitivas. 
       .tarjeta.tranform.p-4.h-100
         .row.justify-content-center.mb-3
           .col-8
@@ -133,21 +133,21 @@
           .tarjeta-numerada__numero
             .h2 1
           p.text-center 
-            b Cumplimiento tributario: 
+            b Cumplimiento tributario 
           p.text-center Tener en la compañía sistemas de facturación permite estar tranquilo respecto al cumplimiento en temas tributarios, dado que dichos sistemas permiten realizar las configuraciones de impuestos que se requieran.
       .col-md-4.col-xl.mb-4.mb-xl-0(data-aos="flip-down")
         .tarjeta-numerada.color-primario.p-5.posit_2
           .tarjeta-numerada__numero
             .h2 2
           p.text-center
-            b Agilidad en la interacción con los clientes: 
+            b Agilidad en la interacción con los clientes 
           p.text-center Bajo condiciones estables de conectividad y accesos, los S.I. de facturación permiten realizar de forma rápida la entrega de facturas a los clientes comparado con un proceso manual.
       .col-md-4.col-xl.mb-4.mb-xl-0(data-aos="flip-down")
         .tarjeta-numerada.color-primario.p-5.posit_2
           .tarjeta-numerada__numero
             .h2 3
           p.text-center 
-            b Disminución de errores en cobros:
+            b Disminución de errores en cobros
           p.text-center Las manualidades llevan inmersas el error humano y si bien los S.I. son operados por humanos, con sistemas de Billing, que minimiza el error, dado que una de las finalidades de los facturadores es realizar los cálculos respectivos asociados a cada transacción.
 
     h3.mb-5(data-aos="zoom-in-left") Sistemas de inteligencia de negocios
