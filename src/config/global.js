@@ -109,12 +109,12 @@ export default {
       referencia:
         'Código de Comercio de Colombia. (1974). Definición de empresa.',
       link:
-        'www.camarabaq.org.co/wp-content/uploads/2021/03/CodigodeComercio-2.pdf',
+        'https://www.camarabaq.org.co/wp-content/uploads/2021/03/CodigodeComercio-2.pdf',
     },
     {
       referencia: 'Navarro, M. (2012). Técnicas de ventas. ',
       link:
-        'http://www.aliat.org.mx/BibliotecasDigitales/economico_administrativo/Tecnicas_de_venta.pdf',
+        'https://www.aliat.click/BibliotecasDigitales/economico_administrativo/Tecnicas_de_venta.pdf',
     },
     {
       referencia:
@@ -238,10 +238,9 @@ export default {
       link: 'https://dle.rae.es/objeci%C3%B3n',
     },
     {
-      texto: 'Navarro, M. (2012). Técnicas de ventas. Red Tercer Milenio.',
+      texto: 'Navarro, M. (2012). Técnicas de ventas.',
       tipo: 'Libro digital',
-      link:
-        'http://www.aliat.org.mx/BibliotecasDigitales/economico_administrativo/Tecnicas_de_venta.pdf',
+      link: '/downloads/Tecnicas_de_venta.pdf',
     },
   ],
   creditos: {
@@ -290,7 +289,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura Regional - Santander',
       },
       {
-        nombre: ['Yuly Rey'],
+        nombre: 'Yuly Rey',
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional - Santander',
