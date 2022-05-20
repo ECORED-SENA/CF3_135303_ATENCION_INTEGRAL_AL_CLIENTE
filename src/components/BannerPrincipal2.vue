@@ -121,9 +121,9 @@ export default {
   &_1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    width: 58px
-    top: 10%
-    right: 29%
+    width: 75px
+    top: 11%
+    right: 30%
   &_2
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
@@ -133,22 +133,22 @@ export default {
   &_3
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    width: 90px
-    bottom: 2%
+    width: 100px
+    bottom: 3%
     right: 1%
   &_4
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    width: 52px
-    bottom: 4%
-    left: 63%
+    width: 80px
+    bottom: 5%
+    left: 60%
     z-index: 99
   &_5
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    width: 92px
-    top: 44%
-    left: 59%
+    width: 110px
+    top: 40%
+    left: 57%
     z-index: 99
   &_6
     //animation: float1 3.5s ease-in-out infinite alternate
