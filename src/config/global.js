@@ -240,7 +240,7 @@ export default {
     {
       texto: 'Navarro, M. (2012). Técnicas de ventas.',
       tipo: 'Libro digital',
-      link: '/downloads/Tecnicas_de_venta.pdf',
+      descarga: '/downloads/Tecnicas_de_venta.pdf',
     },
   ],
   creditos: {
