@@ -53,7 +53,9 @@
         .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
-            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema6/t6-6.svg')})`}")
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema6/t6-6.png')})`}").align-items-end
+              figure
+                img(src='@/assets/curso/tema6/t6-6-1.svg', alt='Texto que describa la imagen')
             .tarjeta-flip__contenido.p-4.p-xl-5
               h3 Expositivos
               p Cuando el fin es dar a conocer información de tipo descriptivo, usualmente no tienen profundidad en análisis, por lo que su objetivo es mostrar la realidad de hechos o actividades empresariales, en el mundo empresarial se conocen como “mostrar la foto”, es decir, contar lo que está aconteciendo tal cual como se está presentado la situación.
@@ -61,7 +63,9 @@
         .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
-            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema6/t6-7.svg')})`}")
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema6/t6-7.png')})`}").align-items-end
+              figure
+                img(src='@/assets/curso/tema6/t6-7-1.svg', alt='Texto que describa la imagen')
             .tarjeta-flip__contenido.p-4.p-xl-5
               h3 Interpretativos
               p Se realizan cuando tienen por fin no solo describir la información sino también suministrar análisis, conclusiones y recomendaciones.
@@ -69,7 +73,9 @@
         .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
-            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema6/t6-8.svg')})`}")
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema6/t6-8.png')})`}").align-items-end
+              figure
+                img(src='@/assets/curso/tema6/t6-8-1.svg', alt='Texto que describa la imagen')
             .tarjeta-flip__contenido.p-4.p-xl-5
               h3 Demostrativos
               p Son aquellos que propenden por mostrar los hallazgos respecto a alguna hipótesis de negocio planteada o dar a conocer una postura respecto a una situación específica, en este segundo caso de uso, siempre deberá quedar claro cuál es la situación (es decir, lo que está aconteciendo) y cuál es la postura (es decir, la reflexión personal).
@@ -77,7 +83,9 @@
         .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
-            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema6/t6-9.svg')})`}")
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema6/t6-9.png')})`}").align-items-end
+              figure
+                img(src='@/assets/curso/tema6/t6-9-1.svg', alt='Texto que describa la imagen')
             .tarjeta-flip__contenido.p-4.p-xl-5
               h3 Persuasivos
               p Tienen por fin obtener alguna aprobación o convencer a determinado público respecto a una valoración que se está dando sobre un tema.

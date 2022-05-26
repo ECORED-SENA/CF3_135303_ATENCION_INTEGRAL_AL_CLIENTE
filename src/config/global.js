@@ -103,22 +103,23 @@ export default {
   },
   referencias: [
     {
-      referencia: 'Ardila, E. (1984), Técnicas de ventas: objeciones. SENA.',
+      referencia:
+        'Ardila, E. (1984), <em>Técnicas de ventas: objeciones</em>. SENA.',
     },
     {
       referencia:
-        'Código de Comercio de Colombia. (1974). Definición de empresa.',
+        'Presidencia de Colombia. (1971). <em>Decreto 410 de 1971</em>, por el cual se expide el Código de Comercio. ',
       link:
         'https://www.camarabaq.org.co/wp-content/uploads/2021/03/CodigodeComercio-2.pdf',
     },
     {
-      referencia: 'Navarro, M. (2012). Técnicas de ventas. ',
+      referencia: 'Navarro, <em>M. (2012)</em>. Técnicas de ventas. ',
       link:
         'https://www.aliat.click/BibliotecasDigitales/economico_administrativo/Tecnicas_de_venta.pdf',
     },
     {
       referencia:
-        'Viña. A. (2005). Atención y servicio al cliente con nuevas tecnologías de información y comunicación. SENA.',
+        'Viña. A. (2005). <em>Atención y servicio al cliente con nuevas tecnologías de información y comunicación</em>. SENA.',
       link: 'https://repositorio.sena.edu.co/handle/11404/2345',
     },
   ],

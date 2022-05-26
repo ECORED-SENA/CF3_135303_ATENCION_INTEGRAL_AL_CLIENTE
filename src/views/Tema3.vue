@@ -132,7 +132,7 @@
               .tarjeta.bgr_8
                 .p-4
                   h3 Dinámicas
-                  p Son diseñadas exclusivamente con fines de lectura, almacenamiento y registro de datos históricos, sin embargo, luego son susceptibles de uso para análisis de proyecciones y comportamientos de una determinada variable. Por ejemplo, la empresa puede tener una base de datos del histórico de devoluciones que se han realizado en el último año, dicha información puede ser consultada o ser utilizada para dimensionar los recursos necesarios con el fin de poder atender dichos trámites al año siguiente. En este caso, la variable son las devoluciones y la utilidad será predecir la cantidad de agentes necesarios para atender este tipo de solicitudes.
+                  p Las cuales por su misma denominación son lo opuesto de las estáticas, ya que, si permiten realizar ajustes o modificaciones en la información registrada, dicho de otra manera, los datos que se ingresan pueden ser actualizados, eliminados o complementados. A nivel de ejemplo, se toma el caso de la base de datos de los datos de contacto de un cliente, esta es una información que cambia fácilmente, por lo que debe ser susceptible de actualizar en el momento que se requiera.
 
     h3.mb-5(data-aos="zoom-in-left") Bases de datos según el contenido      
 
